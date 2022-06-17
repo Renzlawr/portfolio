@@ -4,7 +4,9 @@
 }
 
 body {
-  background: url(./assets/background.jpg);
+  overflow-x: hidden;
+  background-color: rgb(37, 37, 37);
+  height: 2060px;
 }
 
 nav {
@@ -16,6 +18,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  z-index: 45;
+  position: absolute;
 }
 
 #name-container {
@@ -37,4 +41,47 @@ nav {
   height: 40px;
   width: 40px;
   cursor: pointer
+}
+
+#hero {
+  height: 1657px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  background: url(./assets/Frame.svg);
+}
+
+#text {
+  width: 50%;
+  height:100%;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin-top: 12%;
+}
+
+#illustration {
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 1%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+#name-and-title {
+  height: 31rem;
+  width: 31rem;
+  justify-content: center;
+  display: flex;
+}
+
+#bubble-planets {
+  height: 55rem;
+  width: 55rem;
+  justify-content: center;
+  display: flex;
 }

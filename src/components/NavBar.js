@@ -10,7 +10,7 @@ export default class NavBar extends Component {
       <>
         <nav>
             <div id="name-container">
-                <img id="name" src={namePic} alt="Logan Ramos button"/>
+                <img id="name" src={namePic} alt="Logan Ramos button" />
             </div>
             <div id="button-container">
                 <img className="buttons" src={gitHub} alt="github logo"/>
