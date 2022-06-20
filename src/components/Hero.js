@@ -6,6 +6,7 @@ export default class Hero extends Component {
   render() {
     return (
       <>
+      <a id="top" />
         <div id="hero">
           <div id="text">
             <img id="name-and-title" src={NameAndTitle} />
