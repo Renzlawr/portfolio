@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Dropdown from './components/Dropdown'
 import SkillSet from './components/SkillSet'
+import Projects from './components/Projects'
 
 export default class App extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ export default class App extends Component {
           animate={this.state.animate}
           />
           <SkillSet />
+          <Projects />
         </>
     )
   }

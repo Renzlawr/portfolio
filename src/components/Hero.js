@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NameAndTitle from '../assets/name-and-title.svg'
-import BubblePlanets from '../assets/bubble-planets.svg'
+import BubblePlanets from '../assets/bubble-planets-bpurple.svg'
 
 export default class Hero extends Component {
   render() {
@@ -15,6 +15,7 @@ export default class Hero extends Component {
             <img id="bubble-planets" src={BubblePlanets} />
           </div>
         </div>
+        <a id="skills" />
       </>
     )
   }

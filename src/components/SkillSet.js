@@ -17,8 +17,7 @@ export default class SkillSet extends Component {
   render() {
     return (
       <>
-        <a id="skills" />
-        <h1 id="skills">My Skill Set</h1>
+        <h1 className="headers">My Skills</h1>
         <div id="skill-set-container">
             <div className="skills">
                 <h2>Languages</h2>
