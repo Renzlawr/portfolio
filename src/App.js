@@ -5,6 +5,9 @@ import Hero from './components/Hero'
 import Dropdown from './components/Dropdown'
 import SkillSet from './components/SkillSet'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import About from './components/About'
+import Footer from './components/Footer'
 
 export default class App extends Component {
   constructor(props) {
@@ -36,6 +39,9 @@ export default class App extends Component {
           />
           <SkillSet />
           <Projects />
+          <About />
+          <Contact />
+          <Footer />
         </>
     )
   }

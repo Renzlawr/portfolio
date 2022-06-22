@@ -20,17 +20,17 @@ export default class Dropdown extends Component {
                 </a> 
               </li>
               <li className="dropdown-links">
-                <a href="#top" onClick= { this.props.handleButtonClick }>
-                  about
-                </a>
-              </li>
-              <li className="dropdown-links">
                 <a href="#projects" onClick= { this.props.handleButtonClick }>
                   projects
                 </a>
               </li>
               <li className="dropdown-links">
-                <a href="#top" onClick= { this.props.handleButtonClick }>
+                <a href="#about" onClick= { this.props.handleButtonClick }>
+                  about
+                </a>
+              </li>
+              <li className="dropdown-links">
+                <a href="#contact" onClick= { this.props.handleButtonClick }>
                   contact
                 </a>
               </li>
