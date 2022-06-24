@@ -19,9 +19,9 @@ export default class NavBar extends Component {
             <a href="https://github.com/Renzlawr" target="_blank">
               <img className="buttons" src={gitHub} alt="github logo"/>
             </a>
-            {/* <a href="" target="_blank"> */}
+            <a href="https://www.linkedin.com/in/loganramos/" target="_blank">
               <img className="buttons" src={linkedIn} alt="linkedin logo"/>
-            {/* </a> */}
+            </a>
             <div id="dropdownContainer">
               {!this.props.state.open && (
                 <a id="dropdownButton">

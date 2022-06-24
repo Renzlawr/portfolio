@@ -4,9 +4,9 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-        <a id="contact"/>
         <div id="contact">
             <h1 id="contact-header" className="headers">Contact</h1>
+            <a id="contact"/>
             <div id="form-container">
                 <form id="form">
                     <label>First Name</label>

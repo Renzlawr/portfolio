@@ -7,8 +7,8 @@ export default class Footer extends Component {
       <div id="footer-container">
         <ul id="footer">
             <li id="footer-made" className="footer-item">
-                <p > Made from scratch by </p>
-                <p> Logan Ramos </p>
+                <p > © Made from scratch by </p>
+                <p> Logan Ramos - 2022</p>
             </li>
             <li>
                  <a href="https://github.com/Renzlawr" target="_blank" className="footer-item">
